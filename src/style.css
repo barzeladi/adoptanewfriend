@@ -1,0 +1,217 @@
+/* general settings */
+
+* {
+    box-sizing: border-box;
+    /* direction: rtl; */
+  }
+  
+  /* top nav bar */
+  
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    /* margin-right: 100px; */
+    /* min-height: 120px; */
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  } 
+  
+  .nav-link {
+    /* text-align: right; */
+    /* font-weight: 900; */
+    margin: 10px 0 10px 0;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+  
+  }
+  
+  /* top manu */
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+  
+  
+  h1 {
+    text-align: left;
+    margin-top: 0;
+    display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  
+  .form-check-label {
+      margin-bottom: 0;
+  }
+  
+  label {
+      display: inline-block;
+      margin-bottom: .5rem;
+  }
+  
+  
+  .form-check-inline .form-check-input {
+    margin-right: 0;
+    margin-left: 0.3rem;
+  }
+  .form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 0;
+  }
+  
+  input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  .form-check-input {
+    margin-right: -1em;
+  }
+  
+  .form-check-input {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+   @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+/*
+body {
+  background: #1C8EF9 !important;
+  min-height: 100vh;
+    display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+} */
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+} 
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+  
+  /* cards */
+  
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  }
+
+  .jumbotron {
+    background-image: url('./img/adoption.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+
+   .display-4 {
+    color: red;
+  }
+
+  /* contact us */
+
+    
+  
+  
